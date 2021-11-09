@@ -10,8 +10,6 @@ function outPutTheCurrentValue(theInputNumber, thePassedInValue) {
     console.log('number ' + theInputNumber + ' input value is changing.', thePassedInValue)
 }
 
-
-
 number1.addEventListener('change', function (e) {
     outPutTheCurrentValue(1, e.target.value)
 });

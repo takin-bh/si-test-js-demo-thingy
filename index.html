@@ -8,15 +8,53 @@
         <title>Js Demo</title>
     </head>
     <body>
+
         <section class="js-demo-window">
-            <input id="number-1" type="number" />
-            <input id="number-2" type="number" />
+            <div class="js-demo-window__inputs margin-1">
+                <input class="js-demo-window__input" id="number-1" type="number" />
+                <input class="js-demo-window__input" id="number-2" type="number" />
+            </div>
 
-            <button id="calculate">Calculate</button>
-            Your result is: 
-            
-            <div id="the_result">
+            <div class="js-demo-window__operator margin-1">
+                <select>
+                    <option>+</option>
+                    <option>-</option>
+                    <option>%</option>
+                    <option>x</option>
+                </select>
 
+                <label>
+                    +
+                    <input type="radio">
+                </label>
+                <label>
+                    -
+                    <input type="radio">
+                </label>
+                <label>
+                    %
+                    <input type="radio">
+                </label>
+                <label>
+                    x
+                    <input type="radio">
+                </label>
+               
+            </div>
+
+            <div class="js-demo-window__calculates margin-1">
+                <button class="js-demo-window__calculate" id="calculate">Calculate</button>
+            </div>
+
+
+            <div class="js-demo-window__results margin-1">
+
+                <div class="js-demo-window__results-lead">
+                    Your result is: 
+                </div>
+                <div class="js-demo-window__result" id="the_result">
+                    TBD
+                </div>
             </div>
         </section>
         
