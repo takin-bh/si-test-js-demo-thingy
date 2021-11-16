@@ -1,9 +1,13 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
 body {
-    /* background-color: purple; */
+    /* background-color: $purple; */
 }
 
 .js-demo-window {
-    background-color: white;
+    @extend .margin-1;
+    background-color: $white;
     box-shadow: 0 0 2px 1px #817e7e;
     border-radius: .5em;
     height: 90%;
@@ -12,31 +16,25 @@ body {
         left: 50%;
         top: 50%;
         transform: translate(-50%,-50%);
+
+    &__inputs {
+        @include default_layout_styling;
+    }
+
+    &__operator {
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid gray;
+        border-top: 2px solid gray;
+        padding: 1em;
+    }
+
+    &__operator select {
+        font-size: 2em;
+        width: 10%;
+    }
 }
 
-.js-demo-window__input {
-    /* display: none; */
-}
-
-.js-demo-window__inputs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* align-items: flex-end; */
-}
-
-.js-demo-window__operator {
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid gray;
-    border-top: 2px solid gray;
-    padding: 1em;
-}
-
-.js-demo-window__operator select {
-    font-size: 2em;
-    width: 10%;
-}
 
 .js-demo-window .js-demo-window__input {
     width: 100%;
@@ -73,9 +71,8 @@ body {
 .js-demo-window__calculate:active,
 .js-demo-window__calculate:focus,
 .js-demo-window__calculate:hover {
-    background-color: purple;
-    border: 1px solid purple;
-    color: white;
+    @include default_color_scheme;
+    border: 1px solid $purple;
     padding: 1em 2em;
     border: 0;
 }
@@ -94,8 +91,8 @@ body {
 }
 
 .js-demo-window__result {
-    background-color: green;
-    color: white;
+    background-color: $green;
+    color: $white;
     padding: 1em;
 }
 

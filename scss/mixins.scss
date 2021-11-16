@@ -1,0 +1,11 @@
+@mixin default_layout_styling {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin default_color_scheme {
+    background-color: $purple;
+    color: $white;
+}
