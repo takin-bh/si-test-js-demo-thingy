@@ -8,3 +8,5 @@ If you don't have sass, please install using a command such as:
 
 To run for this project, use the following command from the terminal at this project's root folder: 
 ```sass --watch scss/style.scss:build/style.css```
+
+sass --watch scss:build 

@@ -9,6 +9,20 @@
     </head>
     <body>
 
+        <header>
+            <button type="button" id="menu-toggle" class="menu-toggle">Menu</button>
+            <nav id="main-navigation">
+                <ul class="menu" id="menu-list">
+                    <li class="menu-item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Profile</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
         <section class="js-demo-window">
             <div class="js-demo-window__inputs margin-1">
                 <input class="js-demo-window__input" id="number-1" type="number" />
@@ -23,23 +37,6 @@
                     <option value="multiply">*</option>
                 </select>
 
-                <!-- <label>
-                    +
-                    <input type="radio">
-                </label>
-                <label>
-                    -
-                    <input type="radio">
-                </label>
-                <label>
-                    %
-                    <input type="radio">
-                </label>
-                <label>
-                    x
-                    <input type="radio">
-                </label>
-                -->
             </div>
 
             <div class="js-demo-window__calculates margin-1">
@@ -59,5 +56,6 @@
         </section>
         
         <script src="js/script.js"></script>
+        <script src="js/menu.js"></script>
     </body>
 </html>

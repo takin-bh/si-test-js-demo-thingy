@@ -1,0 +1,58 @@
+/*
+Error: Invalid CSS after "": expected selector, was "{"
+        on line 1 of scss/style.css.map
+
+1: {
+2: "version": 3,
+3: "mappings": "AAGA,IAAK;EACD,gCAAgC;;AAGpC,eAAgB;EAEZ,gBAAgB,ECPZ,KAAK;EDQT,UAAU,EAAE,mBAAmB;EAC/B,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,GAAG;EACV,QAAQ,EAAE,QAAQ;EACd,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,GAAG;EACR,SAAS,EAAE,qBAAoB;EAEnC,uBAAU;IElBV,OAAO,EAAE,IAAI;IACb,SAAS,EAAE,IAAI;IACf,eAAe,EAAE,aAAa;IAC9B,WAAW,EAAE,MAAM;EFmBnB,yBAAY;IACR,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,MAAM;IACvB,aAAa,EAAE,cAAc;IAC7B,UAAU,EAAE,cAAc;IAC1B,OAAO,EAAE,GAAG;EAGhB,gCAAmB;IACf,SAAS,EAAE,GAAG;IACd,KAAK,EAAE,GAAG;;AAKlB,sCAAuC;EACnC,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,GAAG;EACZ,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,GAAG;;AAGf,oCAAqC;EACjC,sCAAuC;IACnC,KAAK,EAAE,gBAAgB;AAI/B,oDAAqD;EAClD,kBAAkB;;AAIrB,2BAA4B;EACxB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;;AAG3B,0BAA2B;EACvB,gBAAgB,EAAE,WAAW;EAC7B,MAAM,EAAE,eAAe;EACvB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,OAAO;EAChB,UAAU,EAAE,oBAAoB;;AAGpC;;gCAEiC;EEhE7B,gBAAgB,EDRX,MAAM;ECSX,KAAK,EDPD,KAAK;EDwET,MAAM,EAAE,gBAAiB;EACzB,OAAO,EAAE,OAAO;EAChB,MAAM,EAAE,CAAC;;AAGb,wBAAyB;EACrB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;;AAG1B,0BAAU;EACN,MAAM,EAAE,GAAG;;AAOf,uBAAwB;EACpB,gBAAgB,EC5FZ,KAAK;ED6FT,KAAK,EC5FD,KAAK;ED6FT,OAAO,EAAE,GAAG",
+4: "sources": ["style.scss","variables.scss","mixins.scss"],
+5: "names": [],
+6: "file": "style.css"
+
+Backtrace:
+scss/style.css.map:1
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1218:in `expr!'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:434:in `visit_rule'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/takin/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"\": expected selector, was \"{\"\A         on line 1 of scss/style.css.map\A \A 1: {\A 2: \"version\": 3,\A 3: \"mappings\": \"AAGA,IAAK;EACD,gCAAgC;;AAGpC,eAAgB;EAEZ,gBAAgB,ECPZ,KAAK;EDQT,UAAU,EAAE,mBAAmB;EAC/B,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,GAAG;EACV,QAAQ,EAAE,QAAQ;EACd,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,GAAG;EACR,SAAS,EAAE,qBAAoB;EAEnC,uBAAU;IElBV,OAAO,EAAE,IAAI;IACb,SAAS,EAAE,IAAI;IACf,eAAe,EAAE,aAAa;IAC9B,WAAW,EAAE,MAAM;EFmBnB,yBAAY;IACR,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,MAAM;IACvB,aAAa,EAAE,cAAc;IAC7B,UAAU,EAAE,cAAc;IAC1B,OAAO,EAAE,GAAG;EAGhB,gCAAmB;IACf,SAAS,EAAE,GAAG;IACd,KAAK,EAAE,GAAG;;AAKlB,sCAAuC;EACnC,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,GAAG;EACZ,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,GAAG;;AAGf,oCAAqC;EACjC,sCAAuC;IACnC,KAAK,EAAE,gBAAgB;AAI/B,oDAAqD;EAClD,kBAAkB;;AAIrB,2BAA4B;EACxB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;;AAG3B,0BAA2B;EACvB,gBAAgB,EAAE,WAAW;EAC7B,MAAM,EAAE,eAAe;EACvB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,OAAO;EAChB,UAAU,EAAE,oBAAoB;;AAGpC;;gCAEiC;EEhE7B,gBAAgB,EDRX,MAAM;ECSX,KAAK,EDPD,KAAK;EDwET,MAAM,EAAE,gBAAiB;EACzB,OAAO,EAAE,OAAO;EAChB,MAAM,EAAE,CAAC;;AAGb,wBAAyB;EACrB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;;AAG1B,0BAAU;EACN,MAAM,EAAE,GAAG;;AAOf,uBAAwB;EACpB,gBAAgB,EC5FZ,KAAK;ED6FT,KAAK,EC5FD,KAAK;ED6FT,OAAO,EAAE,GAAG\",\A 4: \"sources\": [\"style.scss\",\"variables.scss\",\"mixins.scss\"],\A 5: \"names\": [],\A 6: \"file\": \"style.css\""; }
